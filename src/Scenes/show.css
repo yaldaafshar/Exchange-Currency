@@ -1,0 +1,10 @@
+.Buy-sell-items {
+    padding:8px
+}
+
+.grid-width{
+    width: 528px;
+    @media(min-width: 50rem){
+        width: 800px;
+    }
+}

@@ -1,0 +1,20 @@
+.dropdown{
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    border-radius: 8px;
+}
+.dropdown-parent{
+    margin-top: 24px;
+    display: flex;
+    width: 260px;
+
+    @media(min-width: 40rem){
+        margin-top: 0px;
+        width: 260px;
+        margin-right: 8px;
+    }
+}
+

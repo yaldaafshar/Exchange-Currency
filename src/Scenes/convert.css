@@ -1,0 +1,70 @@
+.convert{
+    display: flex;
+    flex-direction: column;
+    @media(min-width:40rem) {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+}
+.convert-parent{
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF5EE;
+    margin: auto;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    position: relative;
+    bottom: -88px;
+    box-shadow: 0 4px 8px gray;
+    justify-content: space-between;
+    @media(min-width:40rem) {
+        display: flex;
+        flex-direction: column;
+        max-width: 40%;
+        min-width: 575px;
+    }
+}
+
+.convertButton{
+    margin-top:0;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color:#4682B4;
+    border-radius: 4px;
+    max-width: 120px;
+    position: absolute;
+    bottom: 28px;
+    right: 12px;
+    @media(min-width: 40rem){
+        margin-top: 80px;
+        align-self: flex-end;
+        position: static;
+    }
+}
+.amount-input{
+    margin-right: 0px;
+    padding-right: 60px;
+        padding-left: 60px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        border-radius: 8px;
+    @media(min-width: 40rem){
+        max-width: 74px;
+        margin-right: 8px;
+    }
+}
+
+.pConvert{
+    @media(min-width: 40rem){
+        min-width: 156px;
+        align-self: flex-start;
+        
+    }
+}
