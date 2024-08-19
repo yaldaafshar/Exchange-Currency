@@ -1,4 +1,5 @@
-# Exchange Currency App (React, TypeScript, Node.js, Express)
+# Exchange Currency App 
+- Techologies used: React, TypeScript, Node.js, Express
 ## Key features
 - Displayed exchange rates, including both buying and selling rates, between CAD, USD, and IRR currencies.
 - Implemented secure login and logout functionalities.
